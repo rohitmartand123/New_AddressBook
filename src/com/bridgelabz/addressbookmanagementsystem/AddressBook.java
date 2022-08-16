@@ -1,5 +1,6 @@
 package com.bridgelabz.addressbookmanagementsystem;
 import java.util.Scanner;
+
 /**
  * Address book of functions
  *
