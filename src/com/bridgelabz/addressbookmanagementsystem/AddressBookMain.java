@@ -7,12 +7,12 @@ package com.bridgelabz.addressbookmanagementsystem;
 public class AddressBookMain {
 	 public static void main(String[] args) {
 
-	        System.out.println("------------------ Welcome to Address Book Management System !-------------------");
+	        System.out.println("----------------Welcome to Address Book Management System !------------------");
 	        System.out.println();
 
 	        AddressBook addressBook = new AddressBook();
 
-	        // Calling addressBookMenu to perform various operations in address book
-	        addressBook.addressBookMenu();
+	        // Calling option method to take choice of add, edit, delete or display
+	        addressBook.option();
 	    }
 	}

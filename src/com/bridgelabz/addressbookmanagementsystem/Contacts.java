@@ -15,16 +15,14 @@ public class Contacts {
     private String mobileNo;
     private String email;
 
-    // Parameterised Constructor
-    public Contacts(String firstName, String lastName, String address, String city, String state, String pincode,
-                    String mobileNo, String email) {
-
+    // Constructor
+    public Contacts() {
         this.firstName = firstName;
         this.lastName = lastName;
         this.address = address;
         this.city = city;
         this.state = state;
-        this.pinCode = pincode;
+        this.pinCode = pinCode;
         this.mobileNo = mobileNo;
         this.email = email;
     }
@@ -96,6 +94,6 @@ public class Contacts {
 
     @Override
     public String toString() {
-        return "Contacts {" + "\n FirstName : " + firstName + ", LastName : " + lastName + " \n Address : " + address + ", City : " + city + ", State : " + state + "\n Mobile No : " + mobileNo + ", Pin-Code : " + pinCode + ", \n Email : " + email + '}';
+        return "Contact{" + "\n FirstName : " + firstName + ", LastName : " + lastName + " \n Address : " + address + ", City : " + city + ", State : " + state + "\n Mobile No : " + mobileNo + ", Pin-Code : " + pinCode + ", \n Email : " + email + '}';
     }
 }
