@@ -1,5 +1,4 @@
 package com.bridgelabz.addressbookmanagementsystem;
-
 /**
  * Ability to add a new Contact to Address Book
  *
