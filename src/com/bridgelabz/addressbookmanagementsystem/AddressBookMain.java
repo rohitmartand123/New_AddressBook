@@ -12,9 +12,7 @@ public class AddressBookMain {
 
         AddressBook addressBook = new AddressBook();
 
-        // Calling addContact and displayContact method
-        addressBook.addContact();
-        addressBook.displayContact();
-
+        // Calling option method to take choice of add, edit or display
+        addressBook.option();
     }
 }
