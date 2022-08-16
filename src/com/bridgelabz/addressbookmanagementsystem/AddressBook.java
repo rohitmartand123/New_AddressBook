@@ -1,6 +1,5 @@
 package com.bridgelabz.addressbookmanagementsystem;
 import java.util.Scanner;
-
 /**
  * Address book of functions
  *
@@ -8,7 +7,7 @@ import java.util.Scanner;
  */
 
 public class AddressBook {
-	 Contacts contact;
+	  Contacts contact;
 	    Scanner sc = new Scanner(System.in);
 
 	    /*
