@@ -96,4 +96,5 @@ public class Contacts {
     public String toString() {
         return "Contact{" + "\n FirstName : " + firstName + ", LastName : " + lastName + " \n Address : " + address + ", City : " + city + ", State : " + state + "\n Mobile No : " + mobileNo + ", Pin-Code : " + pinCode + ", \n Email : " + email + '}';
     }
+    
 }

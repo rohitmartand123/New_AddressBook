@@ -145,6 +145,6 @@ public class AddressBook {
 	            System.out.println("Please Enter valid first name");
 	            System.out.println();
 	            deleteContact();
-	        }
-	    }
+	        }	        
+	    } 
 	}
