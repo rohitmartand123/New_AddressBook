@@ -1,5 +1,7 @@
 package com.bridgelabz.addressbookmanagementsystem;
 
+import java.util.Scanner;
+
 /**
  * Ability to add a new Contact to Address Book
  *
